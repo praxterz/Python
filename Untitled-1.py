@@ -12,6 +12,18 @@ def main ():
     print("This is the main function.")
     greeting = greet("Bob")
     print(greeting)
+    
 
 if __name__ == "__main__":
-    main()  
+    main()
+
+class dog:
+    """A simple Dog class."""
+    
+    def __init__(self, name):
+        self.name = name
+    
+    def bark(self):
+        return f"{self.name} says Woof!"
+    
+export = dog("Rex")
